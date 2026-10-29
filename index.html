@@ -181,15 +181,20 @@
   </footer>
 
   <script>
-    let currentRoom = ChargeGuard.getRoomId();
+    let currentRoom = (typeof ChargeGuard !== 'undefined' && ChargeGuard.getRoomId) 
+      ? ChargeGuard.getRoomId() 
+      : (new URLSearchParams(window.location.search).get('room') || localStorage.getItem('chargeguard_room') || 'iot-lab-101');
     document.getElementById('roomInput').value = currentRoom;
 
     let qr1 = null;
     let qr2 = null;
 
     function getBaseUrl() {
-      const loc = window.location.href;
-      return loc.substring(0, loc.lastIndexOf('/') + 1);
+      let path = window.location.pathname;
+      if (!path.endsWith('/')) {
+        path = path.substring(0, path.lastIndexOf('/') + 1);
+      }
+      return window.location.origin + path;
     }
 
     function generateQRCodes() {
