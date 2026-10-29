@@ -2,7 +2,7 @@
 
 Sistem Pemantau Keamanan & Estimasi Baterai Charging Station Multi-Edge berbasis Web IoT (Android Web APIs + MQTT over WebSockets).
 
-
+---
 
 ## Daftar Isi
 1. [Arsitektur Sistem](#1-arsitektur-sistem)
