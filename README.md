@@ -82,7 +82,7 @@ Karena Android Chrome **mewajibkan HTTPS** untuk mengakses Battery Status API da
 4. Buka URL tersebut di browser laptop:
    * Halaman `index.html` akan menampilkan **QR Code** untuk HP 1 dan HP 2.
    * Scan QR Code Node 1 dengan HP 1.
-   * 
+   * Scan QR Code Node 2 dengan HP 2.
    * Buka Dashboard di Laptop.
 
 ### Opsi B: Deploy ke GitHub Pages / Vercel (Gratis & Langsung HTTPS)
