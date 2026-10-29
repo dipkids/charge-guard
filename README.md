@@ -1,10 +1,10 @@
-# 🛡️ CHARGEGUARD: Multi-Edge Charging Station Guardian & Battery Estimator
+# CHARGEGUARD: Multi-Edge Charging Station Guardian & Battery Estimator
 
 Sistem Pemantau Keamanan & Estimasi Baterai Charging Station Multi-Edge berbasis Web IoT (Android Web APIs + MQTT over WebSockets).
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 1. [Arsitektur Sistem](#1-arsitektur-sistem)
 2. [Struktur File](#2-struktur-file)
 3. [Panduan Menjalankan Sistem](#3-panduan-menjalankan-sistem)
